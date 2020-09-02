@@ -1,0 +1,180 @@
+/* 
+
+Designed & Developed by http://www.tnerb.net
+
+Inspire #2c3e50
+
+*/
+Fonts
+- font-family: 'Open Sans', sans-serif;
+
+Font Styles
+Light 300
+Light 300 Italic
+Normal 400
+Normal 400 Italic
+Semi-Bold 600
+Semi-Bold 600 Italic
+Bold 700
+Bold 700 Italic
+Extra-Bold 800
+Extra-Bold 800 Italic
+
+Chunkfive
+- font-family: 'Chunkfive', sans-serif;
+
+*/
+
+
+
+/**** Tablet Lanmscape ****/
+@media (min-width: 980px) and (max-width: 1024px) {
+
+.header {width:96%; margin:0 auto;}
+.headerWrap.stuck {position: relative;}
+.contentArea {width:90%; margin:0 auto;}
+.subFooter {max-width: 96%; padding:0;  }
+.footer {width:96%; }
+
+}
+
+
+
+/**** Tablet Portrait ****/
+@media (min-width: 641px) and (max-width: 979px) {
+/* ----- Mobile Menu ----- */
+#mobile-header { display: block; background: #333; float:right;  }
+nav.mainMenu { display: none; }
+
+.header {width:96%; margin:0 auto;}
+.headerWrap.stuck {position: relative;}
+
+.heroWrap {height:100px; }
+.hero {  width:80%;}
+.hero h1 {font-size:26pt; }
+
+.contentArea {width:90%; margin:0 auto;}
+
+.subFooter {max-width: 90%; padding:0;  }
+
+.footer {width:96%; }
+.footerLogo { display:none; }
+
+.logoGalleryItem {width:30%; }
+
+.postGrid {width:47%;}
+
+
+.zoom-gallery ul li {  margin:0 1.5% 1.5% 0;  width:48%; }
+
+.recentThumb {float:none;  width:100%; }
+.recentTitle {float:none; width:100%;  }
+
+.userProfile {width: 200px; height: 200px; margin:0 auto; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;}
+
+.gallery-thumb   { width: 49.4%; padding-bottom: 49%; }
+
+
+
+
+}
+
+
+
+
+/**** IPhone 4 Horizontal & Vertical ****/
+@media (max-width: 640px) {
+
+/* ----- Mobile Menu ----- */
+#mobile-header { display: block; background: #333; float:right; }
+nav.mainMenu { display: none; }
+.header {width:96%; margin:0 auto;}
+.headerWrap.stuck {position: relative; height:70px !important; }
+
+.heroWrap {min-height:250px; }
+.hero { width:70%;}
+.hero h1 {font-size:26pt; }
+
+.headerTop {display:none;}
+.utilMenu {display:none;}
+.socialMedia {display:none;}
+.searchIcon {display:none;}
+
+.mainContentArea h1 {font-size:6vw;}
+.bannerCaption h1 { font-size:6vw; }
+
+.contentArea {width:90%; margin:0 auto;}
+
+.galleryItem, .galleryHover {width:100%; }
+
+
+.sidebarLeft,
+.sidebarRight {width:100%; float:none;}
+
+
+.twoColumnLeft,
+.twoColumnRight {width:100%; float:none;}
+
+.threeColumnLeft,
+.threeColumnMiddle,
+.threeColumnRight {width:100%; float:none;}
+
+.fourColumnLeft,
+.fourColumnMidLeft,
+.fourColumnMidRight,
+.fourColumnRight {width:100%; float:none;}
+
+.subFooter {max-width: 90%; padding:0;  }
+
+.subFooterLeft,
+.subFooterMiddle,
+.subFooterRight {width:100%; float:none; padding:20px  0 0 0; margin:0;}
+
+.subFooter {width:96%; }
+.footer {width:96%; }
+.copyright {width:100%; text-align:center;} 
+.footermenu {display:none;}
+
+.zoom-gallery ul li { float: none; text-align:center; margin:0 auto; padding:0; }
+.logoGalleryItem {width:100%; }; 
+
+
+.footerLogo { display:none; }
+
+
+
+#twitterWrap .fa-twitter { padding:30px 0 0 0;  }
+#twitterHolder {width:90%; }
+#twitterFeed p.tweet {font-size:12pt;}
+
+.postGrid {width:100%; float:none;}
+
+.zoom-gallery ul li {  margin:0 1.5% 1.5% 0;  width:100%; }
+
+
+.desktop { display:none; }
+.mobile { display:block; }
+
+.heroHolder .owl-prev { z-index: 3; position: absolute; top: 45%; left: 0px; -webkit-tap-highlight-color: rgba(0,0,0,0); opacity: 0.7; text-indent: -9999px; overflow: hidden; text-decoration: none; height: 46px; width: 36px; background: url("../images/slider-nav-small.png") no-repeat left center; margin-top: -45px; padding: 0 !important; }
+.heroHolder .owl-next { z-index: 3; position: absolute; top: 45%; right: 0px; -webkit-tap-highlight-color: rgba(0,0,0,0); opacity: 0.7; text-indent: -9999px; overflow: hidden; text-decoration: none; height: 46px; width: 36px; background: url("../images/slider-nav-small.png") no-repeat right center; margin-top: -45px; padding: 0 !important; }
+
+.mainContentArea blockquote { margin: 20px 0px;}
+.mainContentArea blockquote:before { display:none;}
+
+
+
+/*** Post List ***/
+.postImage,
+.postCopy  { width: 100%; float: none; }
+
+.footerLogo { display:none; }
+
+
+.video-wrap {display:none; }
+.gallery-thumb { width: 100%; padding-bottom: 100%; }
+
+
+}
+
+
+
